@@ -1,0 +1,258 @@
+/* Aspekta Variable – https://github.com/ivodolenc/aspekta */
+@font-face {
+  font-family: 'Aspekta Variable';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  src: url('https://cdn.jsdelivr.net/gh/ivodolenc/aspekta@main/packages/fonts/variable/AspektaVF.woff2') format('woff2');
+}
+
+.app-container {
+  width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.content-wrapper {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.matter-scene {
+  flex: 1;
+  min-width: 0;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.matter-scene canvas {
+  display: block;
+}
+
+.side-panel {
+  width: 0;
+  overflow: hidden;
+  background: #0f002f;
+  transition: width 0.3s ease-in-out;
+  position: relative;
+  z-index: 100;
+  height: 100vh;
+  flex-shrink: 0;
+}
+
+.side-panel.open {
+  width: 400px;
+  border-left: 1px solid #60556e;
+}
+
+.side-panel-content {
+  width: 400px;
+  height: 100%;
+  padding: 64px 32px 32px 32px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  font-family: 'Aspekta Variable', sans-serif;
+}
+
+/* Reset browser defaults so spacing is predictable */
+.panel-text .panel-text-title,
+.panel-text .panel-text-author {
+  margin: 0;
+  padding: 0;
+}
+
+.panel-text-title {
+  color: #f1e5ff;
+  font-family: 'Aspekta Variable', sans-serif;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+/* Gap between title and author = only this margin-top (e.g. 4px) */
+.panel-text-author {
+  color: rgba(241, 229, 255, 0.85);
+  font-family: 'Aspekta Variable', sans-serif;
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+.panel-text-body {
+  font-family: 'Aspekta Variable', sans-serif;
+  line-height: 1.5;
+  margin: 0 0 0.75em 0;
+}
+.panel-text-body:last-child {
+  margin-bottom: 0;
+}
+
+.close-panel-btn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  border-radius: 4px;
+  background: transparent;
+  border: 1px solid #f1e5ff;
+  color: #f1e5ff;
+  font-size: 20px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  line-height: 1;
+  padding: 0;
+}
+
+.close-panel-btn:hover {
+  background: #f1e5ff;
+  color: #0f002f;
+}
+
+/* Month picker: centered, 32px from top */
+.month-picker {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 32px;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  border-radius: 9999px;
+  gap: 8px;
+  padding: 8px 8px;
+  background: rgba(15, 0, 47, 0.9);
+  border: 1px solid #60556e;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+}
+
+.month-picker-btn {
+  appearance: none;
+  -webkit-appearance: none;
+  background: #60556e;
+  border: none;
+  border-radius: 9999px;
+  color: #f1e5ff;
+  font-size: 24px;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  line-height: 1;
+  padding: 0;
+}
+
+.month-picker-btn:hover:not(:disabled) {
+  background: #f1e5ff;
+  color: #0f002f;
+}
+
+.month-picker-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.month-picker-disabled {
+  border-color: rgba(241, 229, 255, 0.4);
+}
+
+.month-picker-disabled .month-picker-label {
+  opacity: 0.4;
+}
+
+.month-picker-label-wrap {
+  position: relative;
+  min-width: 120px;
+  height: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.month-picker-label-wrap .month-picker-label {
+  position: absolute;
+  left: 50%;
+  white-space: nowrap;
+  transform: translateX(-50%); /* fallback before motion runs */
+}
+
+.month-picker-label {
+  color: rgba(241, 229, 255, 0.85);
+  font-family: 'Aspekta Variable', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.reset-btn {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  background: transparent;
+  border: 1px solid rgba(241, 229, 255, 0.85);
+  padding: 12px 8px;
+  border-radius: 4px;
+  color: rgba(241, 229, 255, 0.85);
+  font-size: 16px;
+  width: auto;
+  height: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  font-family: 'Aspekta Variable', sans-serif;
+  line-height: 1;
+}
+
+.reset-btn:hover {
+  background: #f1e5ff;
+  color: #0f002f;
+}
+
+/* Hover tooltip placement: wrapper centers the block, inner .hover-text animates */
+.hover-text-wrapper {
+  --hover-bottom: 1%;
+  --hover-left: 50%;
+  position: absolute;
+  bottom: var(--hover-bottom);
+  left: var(--hover-left);
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  pointer-events: none;
+}
+
+.hover-text {
+  padding: 12px 16px;
+  border: 1px solid #60556e;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+  background: rgba(15, 0, 47, 0.85);
+  border-radius: 16px;
+  color: #f1e5ff;
+  font-family: 'Aspekta Variable', sans-serif;
+  text-align: left;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.hover-text-title {
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.hover-text-author {
+  display: block;
+  font-size: 16px;
+  opacity: 0.85;
+}
+
