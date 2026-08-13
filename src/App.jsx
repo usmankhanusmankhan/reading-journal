@@ -679,7 +679,7 @@ function App() {
     }
     
     // Journal pill as image (first spawn slot, at 0ms)
-    createImageBody(viewportWidth / 2 - 110, 0, '/journal.webp', {
+    createImageBody(viewportWidth / 2 - 110, 0, './journal.webp', {
       scale: 0.07 * bodyScaleFactor,
       restitution: 0.8
     }).then(journalBody => {
@@ -696,7 +696,7 @@ function App() {
     }).catch(err => console.warn('Journal image load failed:', err))
 
     // Reading pill as image (second spawn slot, at 200ms)
-    createImageBody(viewportWidth / 2 - 150, 0, '/reading.webp', {
+    createImageBody(viewportWidth / 2 - 150, 0, './reading.webp', {
       scale: 0.07 * bodyScaleFactor,
       restitution: 0.8
     }).then(readingBody => {
@@ -713,7 +713,7 @@ function App() {
     }).catch(err => console.warn('Reading image load failed:', err))
 
     // Usman's pill as image (third spawn slot, at 400ms)
-    createImageBody(viewportWidth / 2 - 190, 0, '/usmans-1.webp', {
+    createImageBody(viewportWidth / 2 - 190, 0, './usmans-1.webp', {
       scale: 0.07 * bodyScaleFactor,
       restitution: 0.8
     }).then(usmansBody => {
