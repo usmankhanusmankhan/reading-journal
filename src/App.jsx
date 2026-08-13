@@ -179,6 +179,94 @@ const IMAGE_BOOKS = [
     ]
   },
 
+  {
+    month: 5,
+    image: './border-environments.jpg',
+    xOffset: 0,
+    y: 250,
+    scale: 0.35,
+    restitution: 0.8,
+    hoverText: "Border Environments",
+    author: 'the Centre for Research Architecture',
+    bodyText: [
+      "A beautifully, grippingly written account...",
+    ]
+  },
+
+  {
+    month: 5,
+    image: './foster.jpeg',
+    xOffset: 400,
+    y: 250,
+    scale: 0.13,
+    restitution: 0.8,
+    hoverText: "Foster",
+    author: 'Claire Keegan',
+    bodyText: [
+      "A beautifully, grippingly written account...",
+    ]
+  },
+
+  {
+    month: 6,
+    image: './free-play.webp',
+    xOffset: -100,
+    y: 250,
+    scale: 0.25,
+    restitution: 0.8,
+    hoverText: "Free Play",
+    author: 'Stephen Nachmanovich',
+    bodyText: [
+      "A well timed book, to do a dive deep into what creativity means.",
+    ]
+  },
+
+  {
+    month: 6,
+    image: './empire-of-ai.jpg',
+    xOffset: -100,
+    y: 250,
+    scale: 0.25,
+    restitution: 0.8,
+    hoverText: "Empire of AI",
+    author: 'Karen Hao',
+    bodyText: [
+      "A prolonged piece of investigative journalism that uncovers the veil of how OpenAI came to exist, and how Sam Altman constructed and conducted his technological empire. It feels like the shift into an AI / agentic age has been so rapid that it's really easy to forget that OpenAI actually started as a non-profit. That idea is laughable now, as we are hurtling towards insanely valued IPOs from OpenAI and Anthropic.",
+      "This book was interesting that I could speak on it for ages, but if I had to sum up my biggest takeaway in one phrase: technologies are not inevitable! It was so interesting to hear every senior executive at OpenAI say things like 'AGI is inevitable! All our problems will be solved', but never really know how to explain what they mean by that. Hao does a really good job of taking one more step back and analyzing how even the general definition of 'intelligence' is fuzzy."
+    ]
+  },
+
+
+  {
+    month: 7,
+    image: './yesteryear.jpg',
+    xOffset: 200,
+    y: 300,
+    scale: 0.35,
+    restitution: 0.8,
+    hoverText: "Yesteryear",
+    author: 'Caro Claire Burke',
+    bodyText: [
+      "Another book club read which I was on a little bit of a time crunch to finish before the meeting...",
+    ]
+  },
+
+  {
+    month: 8,
+    image: './braiding-sweetgrass.jpg',
+    xOffset: -100,
+    y: 250,
+    scale: 0.45,
+    restitution: 0.8,
+    hoverText: "Braiding Sweetgrass",
+    author: 'Robin Wall Kimmerer',
+    bodyText: [
+      "My favorite book of this year so far, a book that has given me a bridge to the natural world around and a bridge to hope for better futures.",
+    ]
+  },
+
+  
+
 
 
 ]
