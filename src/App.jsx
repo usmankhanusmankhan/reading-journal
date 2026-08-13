@@ -133,6 +133,53 @@ const IMAGE_BOOKS = [
     ]
   },
 
+  {
+    month: 3,
+    image: './emperor-of-gladness.jpg',
+    xOffset: 600,
+    y: 350,
+    scale: 0.13,
+    restitution: 0.8,
+    hoverText: "Emperor of Gladness",
+    author: 'Ocean Vuong',
+    bodyText: [
+      "I had the privilege of reading this book through my girlfriend. Since she's a lifelong dancer, and this book is heavily centered in the world of ballet, she received it as a birthday gift. Little did either of them know that I am super selfish so I read it first (don't worry everyone was OK with that).",
+      "And I was really happy I did so!! Howrey writes a brilliant story about the beauty of ballet, love, loss, betrayal, creative passion, New York in the 80s, and the AIDs epidemic. Howrey paces the story brilliantly, with a huge betrayal revealed at the end, unraveled like a long thread pulled from a woolen sleeve. The main players of the game: Carlisle, a successful dance choreographer in LA, her estranged father Robert, a legend of ballet, and his lifelong partner James.",
+      "The story bounces around multiple time periods: from Carlisle as an adolescent pursuing excellency in ballet to gain approval from her father and James, to current day Carlisle, reckoning with the emminent passing of her father. All roads lead to Carlisle's ultimate betrayal, a dramatic event which leads to a severed relationship between father and daughter for almost 20 years. And you really see in Carlisle's past, the way she uses creative ambition as a vessel to achieve acceptance into James' and Robert's life. I felt like James' and Robert's apartment, simply called Bank Street, to mirror Carlisle's desire to fold it all into her being. That hopefully her temporary room in the apartment could become her permanent room, and excellency in ballet was her ticket to do so.",
+      "And as for the art form of ballet, I learned a lot about its history, stories, legends, the relationships it explores, and the power it yields for ballerinas. The dance form of pointe, and the pointe shoes themselves, were described as weapons that ballerina wields to seize and destroy the world in front of them. The shoes make them stronger, and with every jump they hit the ground harder.",
+      "Read this book if you are looking to explore: What is the weight of creative ambition, love, and loss? When you fall short a dream realized, is it too late to ever pursue it again?"
+    ]
+  },
+
+  {
+    month: 4,
+    image: './lapvona.jpg',
+    xOffset: 600,
+    y: 350,
+    scale: 0.15,
+    restitution: 0.8,
+    hoverText: "Lapvona",
+    author: 'Ottessa Moshfegh',
+    bodyText: [
+      "This book was so nasty. Disgusting. I don't like thinking about it very much. I'm not sure what else to say.",
+    ]
+  },
+
+  {
+    month: 4,
+    image: './flower-moon.webp',
+    xOffset: 0,
+    y: 250,
+    scale: 0.6,
+    restitution: 0.8,
+    hoverText: "Killers of the Flower Moon",
+    author: 'David Grann',
+    bodyText: [
+      "A beautifully, grippingly written account...",
+    ]
+  },
+
+
 
 ]
 
@@ -272,9 +319,9 @@ function App() {
     Matter.World.remove(engine.world, ground)
     const newGround = Matter.Bodies.rectangle(
       newSceneWidth / 2, 
-      viewportHeight - 20, 
+      viewportHeight, 
       newSceneWidth, 
-      296, 
+      10, 
       {
         isStatic: true,
         render: {
@@ -587,9 +634,9 @@ function App() {
     // Create ground (static body at the bottom) - width matches viewport
     const ground = Matter.Bodies.rectangle(
       viewportWidth / 2, 
-      viewportHeight - 20, 
+      viewportHeight, 
       viewportWidth, 
-      296, 
+      10, 
       {
         isStatic: true,
         render: {
@@ -1243,7 +1290,7 @@ function App() {
               setSelectedMonth(m => (m >= 12 ? 1 : m + 1))
             }}
             aria-label="Next month"
-            disabled={isPanelOpen || selectedMonth === 3}
+            disabled={isPanelOpen || selectedMonth === 8}
           >
             <img src={`${import.meta.env.DEV ? '' : import.meta.env.BASE_URL}ids-icon-arrow-right-solid.svg`} alt="Next month" style={{ width: '14px', height: '14px', fill: '#f1e5ff' }} />
           </button>
