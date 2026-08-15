@@ -84,6 +84,7 @@
   font-family: 'Aspekta Variable', sans-serif;
   line-height: 1.5;
   margin: 0 0 0.75em 0;
+  text-wrap: pretty;
 }
 .panel-text-body:last-child {
   margin-bottom: 0;

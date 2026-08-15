@@ -143,11 +143,7 @@ const IMAGE_BOOKS = [
     hoverText: "Emperor of Gladness",
     author: 'Ocean Vuong',
     bodyText: [
-      "I had the privilege of reading this book through my girlfriend. Since she's a lifelong dancer, and this book is heavily centered in the world of ballet, she received it as a birthday gift. Little did either of them know that I am super selfish so I read it first (don't worry everyone was OK with that).",
-      "And I was really happy I did so!! Howrey writes a brilliant story about the beauty of ballet, love, loss, betrayal, creative passion, New York in the 80s, and the AIDs epidemic. Howrey paces the story brilliantly, with a huge betrayal revealed at the end, unraveled like a long thread pulled from a woolen sleeve. The main players of the game: Carlisle, a successful dance choreographer in LA, her estranged father Robert, a legend of ballet, and his lifelong partner James.",
-      "The story bounces around multiple time periods: from Carlisle as an adolescent pursuing excellency in ballet to gain approval from her father and James, to current day Carlisle, reckoning with the emminent passing of her father. All roads lead to Carlisle's ultimate betrayal, a dramatic event which leads to a severed relationship between father and daughter for almost 20 years. And you really see in Carlisle's past, the way she uses creative ambition as a vessel to achieve acceptance into James' and Robert's life. I felt like James' and Robert's apartment, simply called Bank Street, to mirror Carlisle's desire to fold it all into her being. That hopefully her temporary room in the apartment could become her permanent room, and excellency in ballet was her ticket to do so.",
-      "And as for the art form of ballet, I learned a lot about its history, stories, legends, the relationships it explores, and the power it yields for ballerinas. The dance form of pointe, and the pointe shoes themselves, were described as weapons that ballerina wields to seize and destroy the world in front of them. The shoes make them stronger, and with every jump they hit the ground harder.",
-      "Read this book if you are looking to explore: What is the weight of creative ambition, love, and loss? When you fall short a dream realized, is it too late to ever pursue it again?"
+      "Ocean Vuong has a way with sentences where he takes you down a long winding road of words, and you're like 'Woah, where's this going?'. At the end of the sentence, sometimes it's worth it, and sometimes you go to the next sentence feeling a little more confused. The Emperor of Gladness is a hefty but ultimately beautiful story layered in with other beautiful sub-stories. It centrally revolves around the 19-year-old (I think that's how old he is, I forget) Hai and the elderly Grazina.",
     ]
   },
 
@@ -217,7 +213,7 @@ const IMAGE_BOOKS = [
     hoverText: "Free Play",
     author: 'Stephen Nachmanovich',
     bodyText: [
-      "A well timed book, to do a dive deep into what creativity means.",
+      "A well timed book for me personally, as I was in a spot where I was questioning my own creativity and what I was capable of.",
     ]
   },
 
@@ -232,7 +228,10 @@ const IMAGE_BOOKS = [
     author: 'Karen Hao',
     bodyText: [
       "A prolonged piece of investigative journalism that uncovers the veil of how OpenAI came to exist, and how Sam Altman constructed and conducted his technological empire. It feels like the shift into an AI / agentic age has been so rapid that it's really easy to forget that OpenAI actually started as a non-profit. That idea is laughable now, as we are hurtling towards insanely valued IPOs from OpenAI and Anthropic.",
-      "This book was interesting that I could speak on it for ages, but if I had to sum up my biggest takeaway in one phrase: technologies are not inevitable! It was so interesting to hear every senior executive at OpenAI say things like 'AGI is inevitable! All our problems will be solved', but never really know how to explain what they mean by that. Technology does not just appear out of thin air, and Hao does a really great job of laying the framework for the reader to understand how we collectively got to this point with advancements in computing and neural networks. Very notably, over the past ten years the spending and technology power has shifted from universities and higher education to deep-pocketed corporations. The way that society experiences AI-powered capabilities today, does not have to be the predominant way."
+      "This book was interesting that I could speak on it for ages, but if I had to sum up my biggest takeaway in one phrase: technologies are not inevitable! It was so interesting to hear every senior executive at OpenAI say things like 'AGI is inevitable! All our problems will be solved', but never really know how to explain what they mean by that. Technology does not just appear out of thin air, and Hao does a really great job of laying the framework for the reader to understand how we collectively got to this point with advancements in computing and neural networks.",
+      "Very notably, over the past ten years the spending and technology power has shifted from universities and higher education to deep-pocketed corporations. The way that society experiences AI-powered capabilities today, does not have to be the predominant way. There ARE other ways to develop AI systems that don't use a million gallons of drinking water, that don't deplete the Global South of their resources.",
+      "Oh actually, here's another huge takeaway: history repeats itself. Hao powerfully weaves comparisons of historic colonial imperialism to current day exploitation by the West and large companies today. We spin in cycles, round and round. Hao takes the reader across the global to tell these stories, from the exploitation of data cleaners and testers in Kenya and Venezuela, to the destruction of natural resources for data centers built in Chile. There are so many more untold stories to tell here, and there will absolutely be more stories to tell on this in the future.",
+      "The comical thing about this book is that the potential sequels to this book just keep writing themselves in real time. This book came out even before OpenAI signed that huge deal with the Department of War to allow use of OpenAI systems and intelligence, right after Anthropic refused to. Sam Altman keeps saying and doing insane things, as do majority of AI tech executives in 2026."
     ]
   },
 
@@ -247,7 +246,7 @@ const IMAGE_BOOKS = [
     hoverText: "Yesteryear",
     author: 'Caro Claire Burke',
     bodyText: [
-      "Another book club read which I was on a little bit of a time crunch to finish before the meeting...",
+      "Another book club read which I was on a little bit of a time crunch to finish before the meeting, but the pages turned themselves and I finished well in time. Yesteryear is one of the more controversial books of 2026 (according to BookTok, which I'm not really on to be honest), and yeah I get it!",
     ]
   },
 
