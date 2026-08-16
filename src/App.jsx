@@ -187,7 +187,8 @@ const IMAGE_BOOKS = [
     bodyText: [
       "This book is interesting, because it's a series of incredibly well-researched essays (they were either longer case studies or shorter field notes) through a committee of researchers associated with Goldsmiths, University of London. Sitting right at the intersection of immigration, violent responses to immigration, and ecology, these stories take the reader across the world to reveal broad and intricate injustices with how governments displace people and nature across country borders.",
       "For me, the very first essay was one of the craziest ones. Researched and recounted by Stefanos Levidis, he documents the method of violence against migrants from Turkey who were trying to cross the Aegean Sea to immigrate to Greece. Facing small Turkish boats filled with hopes and families, the Greek navy would rock their ships back and forth to create powerful waves that attacked the Turkish migrant boats. The Greek boats weaponized topography against the Turkish migrants, and then got to claim innocence because it was 'natural event related'.",
-    
+      "It struck me how every researcher presented their stories through great attention to detail, labor-intesive data analysis, and passionate connections to the people living in varied topologies, ecologies, and environments. Read this academic text to learn more about how governmental agencies alter and impact the ecosystems on country lines. Whether it's through weaponizing water, temperature, or geography, there's a level of violence that follows the alteration of border ecosystems.",
+      "To be honest, I might need to read it again, because it was very hefty with content and stories and I think I read too fast for my own good. I will be diving back in."
     ]
   },
 
