@@ -185,7 +185,9 @@ const IMAGE_BOOKS = [
     hoverText: "Border Environments",
     author: 'the Centre for Research Architecture',
     bodyText: [
-      "A beautifully, grippingly written account...",
+      "This book is interesting, because it's a series of incredibly well-researched essays (they were either longer case studies or shorter field notes) through a committee of researchers associated with Goldsmiths, University of London. Sitting right at the intersection of immigration, violent responses to immigration, and ecology, these stories take the reader across the world to reveal broad and intricate injustices with how governments displace people and nature across country borders.",
+      "For me, the very first essay was one of the craziest ones. Researched and recounted by Stefanos Levidis, he documents the method of violence against migrants from Turkey who were trying to cross the Aegean Sea to immigrate to Greece. Facing small Turkish boats filled with hopes and families, the Greek navy would rock their ships back and forth to create powerful waves that attacked the Turkish migrant boats. The Greek boats weaponized topography against the Turkish migrants, and then got to claim innocence because it was 'natural event related'.",
+    
     ]
   },
 
@@ -246,7 +248,7 @@ const IMAGE_BOOKS = [
     hoverText: "Yesteryear",
     author: 'Caro Claire Burke',
     bodyText: [
-      "Another book club read which I was on a little bit of a time crunch to finish before the meeting, but the pages turned themselves and I finished well in time. Yesteryear is one of the more controversial books of 2026 (according to BookTok, which I'm not really on to be honest), and yeah I get it!",
+      "Another book club read which I was on a little bit of a time crunch to finish before the meeting, but the pages turned themselves and I finished well in time. Yesteryear is one of the more controversial books of 2026 (according to BookTok, which I'm not really on to be honest), and yeah I get it! The tale follows Natalie, who has fully embraced the 'tradwife' lifestyle of ",
     ]
   },
 
