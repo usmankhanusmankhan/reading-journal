@@ -249,7 +249,7 @@ const IMAGE_BOOKS = [
     hoverText: "Yesteryear",
     author: 'Caro Claire Burke',
     bodyText: [
-      "Another book club read which I was on a little bit of a time crunch to finish before the meeting, but the pages turned themselves and I finished well in time. Yesteryear is one of the more controversial books of 2026 (according to BookTok, which I'm not really on to be honest), and yeah I get it! The tale follows Natalie, who has fully embraced the 'tradwife' lifestyle of ",
+      "Another book club read which I was on a little bit of a time crunch to finish before the meeting, but the pages turned themselves and I finished well in time. Yesteryear is one of the more controversial books of 2026 (according to BookTok, which I'm not really on to be honest), and yeah I get it! The tale follows Natalie, who has fully embraced a 'tradwife' lifestyle on a ranch in Idaho.",
     ]
   },
 
@@ -263,7 +263,11 @@ const IMAGE_BOOKS = [
     hoverText: "Braiding Sweetgrass",
     author: 'Robin Wall Kimmerer',
     bodyText: [
-      "My favorite book of this year so far, a book that has given me a bridge to the natural world around and a bridge to hope for better futures.",
+      "My favorite book of this year so far, a book that has given me a bridge to the understanding the natural world around me and how to see nature as a teacher. How I came to read this book: I asked a dear friend of mine if they had any books to recommend that would help nature feel more embodied and present with me. In my outstretched hands, they placed Braiding Sweetgrass.",
+      "Robin Wall Kimmerer, Potawatomi botanist, writer, and sharer of Indigenous knowledge starts the first few pages of her book by describing the plant sweetgrass. She explains how it feels to hold it, the shine of its glossiness as it reflects light, its fragrance, and its corresponding word in the Potawatomi language 'wiingaashk'. Also known as, the 'hair of Mother Earth'. Kimmerer explains that braided sweetgrass isn't a gift to give or receive. Most touchingly, she instead offers 'a braid of stories meant to heal our relationship with the world'.",
+      "When I read those words, I felt like I was being gently guided down a path without judgement. Kimmerer combines observations on plants, ponds, trees, and grass with lessons from Indigenous teachings, while juxtaposing her words against the dominant American mindset of consumption. After reading about Native American traditions of gratitude, I started journaling more about my moments of gratitude, for flowers that grow in bushes and the legs that carry me. The practice of being thankful for everything we can all easily agree beneficial is grounding.",
+      "Kimmerer consistently talks about the idea of reciprocity, the idea that we receive a gift and we are nourished, but in return we give a gift to complete the nourishment. Plants give us gifts of food, water, and shelter, and it's up to us to give them the gift of maintenance. I wonder if we can think about technology and design in a similar way?",
+      "Technology, and the digital world, is increasingly seen a giant black hole of extraction and consumption. In the face of hyperscaled data centers and massive use of resources, what if we approached the digital world in ways that nourished the world instead? Technology that helps someone feel more confident in their creative output, helps someone feel more connected to community? Can we use these principles from Braiding Sweetgrass in the way that we design? I don't know all the answers to this, but I'd like to explore."
     ]
   },
 
