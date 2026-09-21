@@ -203,6 +203,8 @@ const IMAGE_BOOKS = [
     author: 'Claire Keegan',
     bodyText: [
       "Claire Keegan gives the reader a bite-sized story of a young Irish girl's summer with her mother's relatives on their quaint farm a few hours away from her nuclear family. Just under 100 pages, this novella packs straightforward but emotional punches, from the perspective of the young girl along with her aunt and uncle.",
+      "The young girl is unnamed, and she is not alright. The reader is subtly let into facts about her home life, and her aunt and uncle slowly realize the extent of neglect that she faces at home. Her mom has too many kids to take care of, her dad drinks away the spare money her family has. For the first summer in her life, she learns what it's like to be loved by a family.",
+      "But all summers end in three months. She ends up having to go back home to the rest of her family, her siblings shocked that she's wearing a new dress instead of a hand-me-down. The reader ends the story with the girl having one more embrace with her uncle, who she's now seen as a true father figure rather than her actual father. Very sad that she has to go back to her daily routine of neglect :("
     ]
   },
 
