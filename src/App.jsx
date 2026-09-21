@@ -216,7 +216,9 @@ const IMAGE_BOOKS = [
     hoverText: "Free Play",
     author: 'Stephen Nachmanovich',
     bodyText: [
-      "A well timed book for me personally, as I was in a spot where I was questioning my own creativity and what I was capable of.",
+      "A well timed book for me personally, as I was in a spot where I was questioning my own creativity and what I was capable of. A lot of core ideas surfaced for me because I read this book, on what the future of my own creativity could look like. For example: surrending the self to the moment of creativity, the idea of creating a safe space to create and fail, and giving myself constraints to work within.",
+      "The core of this book is not only about creativity, but about improvising creativity, and how to let go of yourself to create something that feels meaningful to you. Which feels incredibly radical considering a designer's seemingly infinite access to digital resources, the bar being higher than ever, and our visibility into everyone else's amazing work being so clear. When a product designer in 2026 feels the pressure to use 20 different AI-powered tools to push 20 different side projects, this is in opposition of the idea that we create our best work when we constrain ourselves.",
+      "When I read books like these, or The Artist's Way by Julia Cameron, a feeling of resistance raises its voice inside of me. What role does play have, when there are skills to develop, metrics to hit, outcomes to present on a silver platter? The West is incredibly achievement-driven, and growing up in the South Bay Area (near San Francisco) fosters the achievement-first mindset on steroids. I hope to read more books like these to detach from the mindset of perfect progress, or a perfect path. That seems to be a myth anyways."
     ]
   },
 
