@@ -202,7 +202,7 @@ const IMAGE_BOOKS = [
     hoverText: "Foster",
     author: 'Claire Keegan',
     bodyText: [
-      "A beautifully, grippingly written account...",
+      "Claire Keegan gives the reader a bite-sized story of a young Irish girl's summer with her mother's relatives on their quaint farm a few hours away from her nuclear family. Just under 100 pages, this novella packs straightforward but emotional punches, from the perspective of the young girl along with her aunt and uncle.",
     ]
   },
 
@@ -268,6 +268,20 @@ const IMAGE_BOOKS = [
       "When I read those words, I felt like I was being gently guided down a path without judgement. Kimmerer combines observations on plants, ponds, trees, and grass with lessons from Indigenous teachings, while juxtaposing her words against the dominant American mindset of consumption. After reading about Native American traditions of gratitude, I started journaling more about my moments of gratitude, for flowers that grow in bushes and the legs that carry me. The practice of being thankful for everything we can all easily agree beneficial is grounding.",
       "Kimmerer consistently talks about the idea of reciprocity, the idea that we receive a gift and we are nourished, but in return we give a gift to complete the nourishment. Plants give us gifts of food, water, and shelter, and it's up to us to give them the gift of maintenance. I wonder if we can think about technology and design in a similar way?",
       "Technology, and the digital world, is increasingly seen a giant black hole of extraction and consumption. In the face of hyperscaled data centers and massive use of resources, what if we approached the digital world in ways that nourished the world instead? Technology that helps someone feel more confident in their creative output, helps someone feel more connected to community? Can we use these principles from Braiding Sweetgrass in the way that we design? I don't know all the answers to this, but I'd like to explore."
+    ]
+  },
+
+  {
+    month: 9,
+    image: './the-hours.webp',
+    xOffset: 300,
+    y: 250,
+    scale: 0.15,
+    restitution: 0.8,
+    hoverText: "The Hours",
+    author: 'Michael Cunningham',
+    bodyText: [
+      "",
     ]
   },
 
@@ -1384,7 +1398,7 @@ function App() {
               setSelectedMonth(m => (m >= 12 ? 1 : m + 1))
             }}
             aria-label="Next month"
-            disabled={isPanelOpen || selectedMonth === 8}
+            disabled={isPanelOpen || selectedMonth === 9}
           >
             <img src={`${import.meta.env.DEV ? '' : import.meta.env.BASE_URL}ids-icon-arrow-right-solid.svg`} alt="Next month" style={{ width: '14px', height: '14px', fill: '#f1e5ff' }} />
           </button>
