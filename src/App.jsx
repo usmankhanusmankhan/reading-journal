@@ -276,12 +276,14 @@ const IMAGE_BOOKS = [
     image: './the-hours.webp',
     xOffset: 300,
     y: 250,
-    scale: 0.15,
+    scale: 0.13,
     restitution: 0.8,
     hoverText: "The Hours",
     author: 'Michael Cunningham',
     bodyText: [
-      "",
+      "A tapestry weaved between multiple locations, generations, and narrators, Michael Cunningham draws a story based on the life of Virginia Woolf and one of her most famous novels, Mrs. Dalloway. At first, I was skeptical of how closely Cunningham's novel emulated Mrs. Dalloway, especially in prose, the style of wandering storytelling, and its dramatic invokations of the past, present, and future. However, I came to see it as a moving ode, an appreciation of the work that came before him.",
+      "The Hours is a story about parallels, the ones who want to escape their life and everything else, and characters who think about what life is for them and what it wasn't. I already mentioned the parallels in prose between The Hours and Mrs. Dalloway, where a simple conversation between lifelong friends means laying all your weapons bare on the table, showing all the cards you possess in your hands, revealing the most inner self and regrets.",
+      "Suprisingly, the relationship that most intrigued and moved me was a very secondary relationship to the plot as a whole. Cunningham beautifully describes the relationship between Laura and her young son Richie, by the way he shows how vulnerable and innocent Richie is, in contrast to Laura's oscillation between guilt, love, and tormented need to escape. It makes me think about a pivotal moment in coming of age, when we realize our parents are flawed and human. I wonder what that could have been like for Richie. I am now closer in age to a flawed parent, with all their complexities and regrets, the ones who are responsible for the psyche of future generations."
     ]
   },
 
