@@ -143,7 +143,9 @@ const IMAGE_BOOKS = [
     hoverText: "Emperor of Gladness",
     author: 'Ocean Vuong',
     bodyText: [
-      "Ocean Vuong has a way with sentences where he takes you down a long winding road of words, and you're like 'Woah, where's this going?'. At the end of the sentence, sometimes it's worth it, and sometimes you go to the next sentence feeling a little more confused. The Emperor of Gladness is a hefty but ultimately beautiful story layered in with other beautiful sub-stories. It centrally revolves around the 19-year-old (I think that's how old he is, I forget) Hai and the elderly Grazina.",
+      "Ocean Vuong has a way with sentences where he takes you down a long winding road of words, and you're like 'Woah, where's this going?'. At the end of the sentence, sometimes it's worth it, and sometimes you go to the next sentence feeling a little more confused. The Emperor of Gladness is a hefty but ultimately beautiful story layered in with other beautiful sub-stories. It centrally revolves around the 19-year-old (I think that's how old he is, I forget) Hai and the elderly Grazina, who stops Hai from hurling himself off of a bridge, in the aftermath of his life falling apart. They spend the next year with Hai taking care of Grazina, as they form an unbreakable bond and Hai begins to put the pieces of his life back together.",
+      "The reader's attention is turned even broader, as Hai gets a job at the local fast food restaurant his cousin Sony works at. We are sucked into the ragtag crew's hopes, dreams, and interests, from pro wrestling to the Civil War to whatever will get them all through the day. Vuong hands to us all of Hai's drug problems, queerness, insecurities, fears about living in a dead-end town, and I'm pretty sure the story is autobiographical mostly.",
+      "I will say this again, this book had so many hefty sentences, and I got lost down the winding path sometimes. Ultimately, I do feel better off reading this book."
     ]
   },
 
@@ -171,7 +173,9 @@ const IMAGE_BOOKS = [
     hoverText: "Killers of the Flower Moon",
     author: 'David Grann',
     bodyText: [
-      "A beautifully, grippingly written account...",
+      "This was a crazy read, which I could hardly believe was true in a lot of ways and I could also absolutely believe was true in a lot of ways. Turned into a film directed by Martin Scorcese, Killers of the Flower Moon was originally published by David Grann as a piece of investigative and historical journalism, documenting the disappearance and murder of multiple members of the Osage tribe.",
+      "I say that the story was very believable because it follows the historical pattern of white colonalism and plunder. In Oklahoma during the 1920s, the particular greed at the time was for the Osage tribe's plot access to oil wells, which made them unimaginably wealthy. For me, I feel like it was a slow burn getting to a point where Tom Smith, famed FBI cowboy hybrid, assembled enough facts and details to pin the murders on a main architect, and then the story got crazier and crazier. I found it really interesting the investigative work that Grann did even after the fact, to find out the true extent of how different Osage families were terrorized by different white conspirators.",
+      "As we know, history is cyclical, never dies, and is never isolated. I found the facts of this story to have incredibly striking parallels to events unfolding in Brooklyn literally as I was reading the book. Just last month, a team of organizers defended a Black family in Bedford-Stuyvesant from becoming a victim of deed theft, a surging crime where historically black homeowners are being swindled out of their property. Having to defend what is rightfully theirs, I found the coincidence of reading this book at the same time of these real-life events to be uncanny. Injustice introduces itself with different names.",
     ]
   },
 
